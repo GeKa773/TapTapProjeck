@@ -67,6 +67,9 @@ dependencies {
 }
 
 dependencies {
-
     testImplementation(Dependencies.JUnit.junit)
+}
+
+dependencies {
+    api(Dependencies.Coroutines.core)
 }
