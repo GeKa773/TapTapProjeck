@@ -61,10 +61,16 @@ dependencies {
     implementation(Dependencies.Compose.ui)
     implementation(Dependencies.Compose.preview)
     implementation(Dependencies.Compose.navigation)
-    androidTestImplementation(Dependencies.Compose.junit)
+    implementation(Dependencies.Compose.foundation)
     implementation(Dependencies.Compose.material)
     debugImplementation(Dependencies.Compose.tooling)
     debugImplementation(Dependencies.Compose.manifest)
+    androidTestImplementation(Dependencies.Compose.junit)
+}
+
+dependencies {
+    implementation(Dependencies.Lifecycle.viewModelCompose)
+    implementation(Dependencies.Lifecycle.runtimeCompose)
 }
 
 dependencies {

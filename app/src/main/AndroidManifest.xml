@@ -12,11 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TapTapProject"
         tools:targetApi="31">
+
         <activity
-            android:name="com.radchecko.geka.taptapproject.MainActivity"
+            android:name="com.radchecko.geka.taptapproject.ui.activity.home.HomeActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.TapTapProject">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,6 +29,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-    </application>
 
+        <activity android:name="com.radchecko.geka.taptapproject.ui.activity.games.taptap.TapTapActivity" />
+
+    </application>
 </manifest>

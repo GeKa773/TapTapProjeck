@@ -1,4 +1,4 @@
-package com.radchecko.geka.taptapproject.ui.screens.splash
+package com.radchecko.geka.taptapproject.ui.activity.home.screens.splash
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.radchecko.geka.taptapproject.ui.screens.Screen
+import com.radchecko.geka.taptapproject.ui.activity.home.screens.Screen
 
 @Composable
 fun SplashScreen(navController: NavController) {

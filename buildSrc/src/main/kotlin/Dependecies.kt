@@ -22,7 +22,8 @@ object Dependencies {
         const val version = "1.4.2"
         private const val uiVersion = "1.3.3"
         private const val materialVersion = "1.0.1"
-        private const val nav_version = "2.5.3"
+        private const val navVersion = "2.5.3"
+        private const val foundationVersion = "1.3.1"
 
         const val ui = "androidx.compose.ui:ui:$uiVersion"
         const val preview = "androidx.compose.ui:ui-tooling-preview:$uiVersion"
@@ -30,7 +31,14 @@ object Dependencies {
         const val junit = "androidx.compose.ui:ui-test-junit4:$uiVersion"
         const val tooling = "androidx.compose.ui:ui-tooling:$uiVersion"
         const val manifest = "androidx.compose.ui:ui-test-manifest:$uiVersion"
-        const val navigation = "androidx.navigation:navigation-compose:$nav_version"
+        const val navigation = "androidx.navigation:navigation-compose:$navVersion"
+        const val foundation = "androidx.compose.foundation:foundation:$foundationVersion"
+    }
+
+    object Lifecycle {
+        private const val lifecycle_version = "2.6.0"
+        const val viewModelCompose = "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version"
+        const val runtimeCompose = "androidx.lifecycle:lifecycle-runtime-compose:$lifecycle_version"
     }
 
     object JUnit {

@@ -1,4 +1,4 @@
-package com.radchecko.geka.taptapproject.ui.screens.home
+package com.radchecko.geka.taptapproject.ui.activity.home.screens.home
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
